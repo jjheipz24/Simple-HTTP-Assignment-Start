@@ -1,0 +1,30 @@
+{
+    "name": "simple-http-assignment-start",
+    "version": "1.0.0",
+    "engines": {
+        "node": "12.9.1",
+        "npm": "6.9.0"
+    },
+    "description": "Simple HTTP Server HW",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests complete\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jjheipz24/Simple-HTTP-Assignment-Start.git"
+    },
+    "author": "Jin Jin Heipler",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/jjheipz24/Simple-HTTP-Assignment-Start/issues"
+    },
+    "homepage": "https://github.com/jjheipz24/Simple-HTTP-Assignment-Start#readme",
+    "devDependencies": {
+        "eslint": "^6.3.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-plugin-import": "^2.18.2"
+    }
+}
